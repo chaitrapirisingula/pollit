@@ -1,0 +1,14 @@
+.loading {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.loading-bar {
+    display: grid;
+    justify-content: center;
+}
+
+.message {
+    font-size: large;
+}

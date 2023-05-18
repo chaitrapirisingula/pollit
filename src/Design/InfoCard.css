@@ -1,0 +1,11 @@
+.info-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options_wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 4rem));
+}

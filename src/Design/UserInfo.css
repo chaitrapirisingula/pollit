@@ -1,0 +1,17 @@
+.image-section {
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+}
+  
+.image-section button {
+    color: var(--secondary-white)
+}
+
+.user-info {
+    padding: 1rem;
+    color: var(--secondary-white);
+    display: inline-block;
+    word-break: break-word;
+    align-items: center;
+}

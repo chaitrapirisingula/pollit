@@ -1,0 +1,30 @@
+:root {
+  --primary: #4eada5;
+  --primary-darker: #419992;
+  --secondary-white: #eff2f1;
+  --secondary-black: #2B2B2B;
+  --accent-yellow: #e5c21e;
+  --accent-red: #c41570;
+  --accent-green: #bdd647;
+  --hyperlink-color: #2949cb;
+  --dropshadow-color: rgba(0, 0, 0, 0.25);
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  color: var(--secondary-black);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: var(--secondary-white);
+}
+
+.hover:hover {
+  box-shadow: 0 4px 8px 0 var(--dropshadow-color);
+}

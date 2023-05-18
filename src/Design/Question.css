@@ -1,0 +1,23 @@
+.question {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.question-area {
+    padding: 1rem;
+}
+
+.answer-area {
+    display: grid;
+    justify-content: center;
+}
+
+.option-display {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid var(--secondary-black);
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: var(--secondary-white);
+    margin-bottom: 1rem;
+}

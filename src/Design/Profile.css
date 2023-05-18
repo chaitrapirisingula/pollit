@@ -1,0 +1,22 @@
+.profile {
+  text-align: center;
+  display: flex;
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0;
+}
+
+.mobile-view {
+  top: 0; bottom: 0; right: 0; left: 0;
+}
+
+.mobile-user-section {
+  background-color: var(--primary-darker);
+}
+
+.sidemenu {
+  width: 20%;
+  background-color: var(--primary-darker);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}

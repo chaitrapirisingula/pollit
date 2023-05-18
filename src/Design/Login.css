@@ -1,0 +1,64 @@
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('Images/PollitBG.jpg');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.pollit-logo {
+  display: block;
+  margin: 1rem auto;
+  max-width: 400px;
+  max-height: 200px;
+}
+
+.box-bg-white {
+  background-color: var(--secondary-white);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem auto;
+  width: 40%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.log-in {
+  display: grid;
+  gap: 1rem;
+}
+
+.sign-up {
+  display: grid;
+  padding-top: 1rem;
+}
+
+.log-in button,
+.sign-up button {
+  background-color: var(--accent-green);
+  border-color: var(--accent-green);
+  color: var(--secondary-black);
+  font-size: 1rem;
+  display: block;
+  margin: 1rem auto;
+}
+
+.log-in button:hover,
+.sign-up button:hover {
+  color: var(--accent-green);
+  border-color: var(--accent-green);
+}
+
+.join-guest:hover, 
+.forgot-pass:hover {
+  cursor: pointer;
+}
+
+.pollit-logo {
+  width: 10rem;
+}
