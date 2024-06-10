@@ -1,5 +1,5 @@
 # Pollit
-Welcome to Pollit! This is a interactive and easy to use polling tool intended for educational spaces. Users can create and save questions as well as host sessions for others to join. Pollit also allows users to view and download session responses with automatic grading. Check it out here: https://pollit-1aa11.web.app
+Welcome to Pollit! This is a interactive and easy to use polling tool intended for educational spaces. Users can create and save questions as well as host live sessions for others to join. Pollit also allows users to view and download session responses with automatic grading. Check it out here: https://pollit-1aa11.web.app
 
 # Running the code
 This project was implemented with React and Firebase. To run the code, follow these steps:
